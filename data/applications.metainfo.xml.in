@@ -12,21 +12,21 @@
 
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-applications/8.1.0/data/screenshot-permissions.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-applications/8.1.0/data/screenshot-permissions.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-applications/8.1.0/data/screenshot-defaults.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-applications/8.1.0/data/screenshot-defaults.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-applications/8.1.0/data/screenshot-startup.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-applications/8.1.0/data/screenshot-startup.png</image>
     </screenshot>
   </screenshots>
 
   <content_rating type="oars-1.1" />
 
-  <url type="bugtracker">https://github.com/elementary/switchboard-plug-applications/issues</url>
+  <url type="bugtracker">https://github.com/elementary/settings-applications/issues</url>
   <url type="donation">https://elementary.io/get-involved#funding</url>
-  <url type="help">https://github.com/elementary/switchboard-plug-applications/discussions</url>
+  <url type="help">https://github.com/elementary/settings-applications/discussions</url>
   <url type="homepage">https://elementary.io/</url>
   <url type="translate">https://l10n.elementary.io/engage/switchboard/</url>
 
@@ -45,7 +45,7 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-applications/pull/238">Add Notifications settings</issue>
+        <issue url="https://github.com/elementary/settings-applications/pull/238">Add Notifications settings</issue>
       </issues>
     </release>
 
@@ -60,9 +60,9 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-applications/issues/148">Add explanation of permissions panel itself, remove explanations from every permission</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-applications/issues/212">Setting to allow Background App Activity</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-applications/issues/220">Setting for Screenshot portal</issue>
+        <issue url="https://github.com/elementary/settings-applications/issues/148">Add explanation of permissions panel itself, remove explanations from every permission</issue>
+        <issue url="https://github.com/elementary/settings-applications/issues/212">Setting to allow Background App Activity</issue>
+        <issue url="https://github.com/elementary/settings-applications/issues/220">Setting for Screenshot portal</issue>
       </issues>
     </release>
 
@@ -74,7 +74,7 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-applications/issues/146">Permissions: Make applist searchable</issue>
+        <issue url="https://github.com/elementary/settings-applications/issues/146">Permissions: Make applist searchable</issue>
         <issue url="https://github.com/elementary/music/issues/758">No music player set in applications settings</issue>
       </issues>
     </release>
@@ -93,8 +93,8 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-applications/issues/59">Bigger + and - icons to add/remove things</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-applications/issues/77">Permissions: reset button should be insensitive if already default</issue>
+        <issue url="https://github.com/elementary/settings-applications/issues/59">Bigger + and - icons to add/remove things</issue>
+        <issue url="https://github.com/elementary/settings-applications/issues/77">Permissions: reset button should be insensitive if already default</issue>
       </issues>
     </release>
 
