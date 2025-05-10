@@ -33,12 +33,14 @@ public class Applications.Sidebar : Gtk.Box {
             margin_end = 6,
             hexpand = true
         };
+        search_entry.set_key_capture_widget (this);
 
         var search_revealer = new Gtk.Revealer () {
             child = search_entry
         };
 
         var search_toggle = new Gtk.ToggleButton () {
+            action_name = "sidebar.search",
             icon_name = "edit-find-symbolic",
             tooltip_text = _("Search Apps")
         };
@@ -92,18 +94,30 @@ public class Applications.Sidebar : Gtk.Box {
             }
         });
 
-        search_entry.search_changed.connect (() => {
-            listbox.invalidate_filter ();
-        });
+        var search_action = new SimpleAction.stateful ("search", null, new Variant.boolean (false));
+        search_action.change_state.connect ((value) => {
+            search_action.set_state (value);
 
-        search_toggle.bind_property ("active", search_revealer, "reveal-child");
+            search_revealer.reveal_child = value.get_boolean ();
 
-        search_revealer.notify["child-revealed"].connect (() => {
-            if (search_revealer.child_revealed) {
+            if (value.get_boolean ()) {
                 search_entry.grab_focus ();
             } else {
                 search_entry.text = "";
             }
+        });
+
+        var action_group = new SimpleActionGroup ();
+        action_group.add_action (search_action);
+
+        insert_action_group ("sidebar", action_group);
+
+        search_entry.search_changed.connect (() => {
+            if (search_entry.text != "") {
+                search_action.change_state (new Variant.boolean (true));
+            }
+
+            listbox.invalidate_filter ();
         });
     }
 
