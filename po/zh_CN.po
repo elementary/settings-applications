@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-19 21:04+0000\n"
-"PO-Revision-Date: 2024-10-05 14:42+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
-"switchboard/switchboard-plug-applications/zh_Hans/>\n"
+"PO-Revision-Date: 2025-08-03 19:55+0000\n"
+"Last-Translator: JieXu <xujie0739@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://"
+"l10n.elementaryos.org/projects/settings/applications/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2016-12-02 05:37+0000\n"
 
 #: src/Plug.vala:44
@@ -85,8 +85,6 @@ msgid "Defaults"
 msgstr "默认程序"
 
 #: src/Sidebar.vala:29 src/Sidebar.vala:43
-#, fuzzy
-#| msgid "Search Applications"
 msgid "Search Apps"
 msgstr "搜索应用程序"
 
@@ -96,17 +94,15 @@ msgstr "系统信息"
 
 #: src/Sidebar.vala:132
 msgid "Apps"
-msgstr ""
+msgstr "应用程序"
 
 #: src/Permissions/Backend/App.vala:42
 msgid "Home Folder"
 msgstr "主文件夹"
 
 #: src/Permissions/Backend/App.vala:43
-#, fuzzy
-#| msgid "Home Folder"
 msgid "System Folders"
-msgstr "主文件夹"
+msgstr "系统文件夹"
 
 #: src/Permissions/Backend/App.vala:44
 msgid "Devices"
@@ -133,10 +129,8 @@ msgid "GPU Acceleration"
 msgstr "GPU 加速"
 
 #: src/Permissions/Backend/PermissionStore.vala:66
-#, fuzzy
-#| msgid "Permissions"
 msgid "Couldn't set permission"
-msgstr "应用权限"
+msgstr "无法设置权限"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:64
 msgid "Advanced System Access"
@@ -156,26 +150,20 @@ msgstr "恢复默认"
 msgid ""
 "Including all documents, downloads, music, pictures, videos, and any hidden "
 "folders."
-msgstr ""
+msgstr "包含所有文件、下载、音乐、图片、影片及所有隐藏文件夹。"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:125
 msgid "Including everyone's Home folders, but not including system internals."
 msgstr ""
 
 #: src/Permissions/Widgets/AppSettingsView.vala:129
-#, fuzzy
-#| msgid ""
-#| "Access all devices, such as webcams, microphones, and connected USB "
-#| "devices."
 msgid ""
 "Manage all connected devices, such as webcams, microphones, and USB devices."
-msgstr "访问所有设备，包括相机、麦克风和已连接的 USB 设备。"
+msgstr "管理所有已连接的设备，如网络摄像头、麦克风和 USB 设备。"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:133
-#, fuzzy
-#| msgid "Access the Internet and local networks."
 msgid "Connect to the Internet and local networks."
-msgstr "访问因特网和本地局域网。"
+msgstr "连接到互联网和本地局域网。"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:137
 msgid "Manage Bluetooth devices including pairing, unpairing, and discovery."
@@ -183,13 +171,11 @@ msgstr "管理蓝牙设备，包括匹配、断开和查找。"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:141
 msgid "Manage printers and see the print queue."
-msgstr ""
+msgstr "管理打印机并查看打印队列。"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:145
-#, fuzzy
-#| msgid "Access other devices on the network via SSH."
 msgid "Connect to other devices on the network via SSH."
-msgstr "通过 SSH 访问网络中的其他设备。"
+msgstr "通过 SSH 连接到网络中的其他设备。"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:149
 msgid "Accelerate graphical output."
@@ -197,11 +183,11 @@ msgstr "加速图形输出。"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:175
 msgid "Background Activity"
-msgstr ""
+msgstr "后台活动"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:176
 msgid "Perform tasks and use system resources while its window is closed."
-msgstr ""
+msgstr "窗口关闭时仍执行任务并使用系统资源。"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:186
 msgid "Location Services"
@@ -209,7 +195,7 @@ msgstr "位置服务"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:187
 msgid "Determine the location of this device."
-msgstr ""
+msgstr "检测这台设备的位置信息。"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:200
 msgid "Notifications"
@@ -219,15 +205,15 @@ msgstr "通知"
 msgid ""
 "Send notification bubbles that may play sound and appear in Notification "
 "Center."
-msgstr ""
+msgstr "传送通知，它们能够播放音效并在通知中心出现。"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:211
 msgid "Screenshot"
-msgstr ""
+msgstr "屏幕截图"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:212
 msgid "Take pictures of the display without asking first."
-msgstr ""
+msgstr "不用先询问就能获取屏幕截图。"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:222
 msgid "Wallpaper"
@@ -235,13 +221,12 @@ msgstr "壁纸"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:223
 msgid "Set the wallpaper on the desktop and lock screen."
-msgstr ""
+msgstr "设定桌面与锁定屏幕的墙纸。"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:239
-#, fuzzy, c-format
-#| msgid "Permissions"
+#, c-format
 msgid "%s permissions"
-msgstr "应用权限"
+msgstr "%s 的权限"
 
 #. / Translators: This is a delimiter that separates types of permissions in the sidebar description
 #: src/Permissions/Widgets/SidebarRow.vala:84
@@ -266,7 +251,7 @@ msgstr "自定义命令"
 
 #: src/Startup/Widgets/AppRow.vala:46
 msgid "Remove this app from startup"
-msgstr ""
+msgstr "移除此应用的开机启动权限"
 
 #: src/Startup/Widgets/AppRow.vala:51
 #, c-format
@@ -287,10 +272,8 @@ msgstr "取消"
 
 #. TRANSLATORS: This string is used by screen reader
 #: src/Startup/Widgets/AppChooser.vala:53
-#, fuzzy
-#| msgid "Remove Selected Startup App"
 msgid "Select startup app"
-msgstr "移除选中的启动项"
+msgstr "选择开机启动的应用程序"
 
 #~ msgid "No Flatpak apps installed"
 #~ msgstr "未安装任何 Flatpak 应用"
