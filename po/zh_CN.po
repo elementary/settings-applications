@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-19 21:04+0000\n"
-"PO-Revision-Date: 2025-08-03 19:55+0000\n"
+"PO-Revision-Date: 2025-08-10 04:55+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "l10n.elementaryos.org/projects/settings/applications/zh_Hans/>\n"
@@ -134,13 +134,14 @@ msgstr "无法设置权限"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:64
 msgid "Advanced System Access"
-msgstr ""
+msgstr "高级系统访问"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:67
 msgid ""
 "Access to system features can be restricted to make apps more secure, but "
 "some apps may not function properly without it"
-msgstr ""
+msgstr "限制应用程序对系统功能的访问能够让应用程序更安全，但某些应用程序在不能访问系"
+"统功能时可能无法正常运行"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:70
 msgid "Reset to Defaults"
@@ -154,7 +155,7 @@ msgstr "包含所有文件、下载、音乐、图片、影片及所有隐藏文
 
 #: src/Permissions/Widgets/AppSettingsView.vala:125
 msgid "Including everyone's Home folders, but not including system internals."
-msgstr ""
+msgstr "包括所有人的主目录，但不包括系统内部文件。"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:129
 msgid ""
