@@ -55,6 +55,11 @@ public class Defaults.Plug : Switchboard.SettingsPage {
             "inode/directory"
         );
 
+        var maps_setting = new SettingsChild (
+            _("Maps"),
+            "x-scheme-handler/geo"
+        );
+
         var flowbox = new Gtk.FlowBox () {
             column_spacing = 24,
             row_spacing = 12,
@@ -71,6 +76,7 @@ public class Defaults.Plug : Switchboard.SettingsPage {
         flowbox.append (text_setting);
         flowbox.append (videos_setting);
         flowbox.append (files_setting);
+        flowbox.append (maps_setting);
 
         child = flowbox;
         show_end_title_buttons = true;
@@ -146,6 +152,9 @@ public class Defaults.Plug : Switchboard.SettingsPage {
 
         private string[] get_types_for_app (string app) {
             switch (app) {
+                case "x-scheme-handler/geo":
+                    return { "x-scheme-handler/geo" };
+
                 case "x-scheme-handler/https":
                     return {
                         "x-scheme-handler/http",
