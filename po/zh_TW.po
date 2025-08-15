@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-19 21:04+0000\n"
+"POT-Creation-Date: 2025-08-15 01:16+0000\n"
 "PO-Revision-Date: 2024-10-07 08:07+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -84,15 +84,15 @@ msgstr "檔案瀏覽器"
 msgid "Defaults"
 msgstr "預設"
 
-#: src/Sidebar.vala:29 src/Sidebar.vala:43
+#: src/Sidebar.vala:29 src/Sidebar.vala:45
 msgid "Search Apps"
 msgstr "搜尋應用程式"
 
-#: src/Sidebar.vala:127
+#: src/Sidebar.vala:141
 msgid "System"
 msgstr "系統"
 
-#: src/Sidebar.vala:132
+#: src/Sidebar.vala:146
 msgid "Apps"
 msgstr "應用程式"
 
@@ -276,6 +276,10 @@ msgstr "取消"
 #: src/Startup/Widgets/AppChooser.vala:53
 msgid "Select startup app"
 msgstr "選擇初始啟動的應用程式"
+
+#: src/Defaults/DefaultPlug.vala:59
+msgid "Maps"
+msgstr ""
 
 #~ msgid "Try changing search terms."
 #~ msgstr "嘗試搜尋其他字詞。"

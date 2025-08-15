@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-19 21:04+0000\n"
+"POT-Creation-Date: 2025-08-15 01:16+0000\n"
 "PO-Revision-Date: 2024-11-28 12:16+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
@@ -86,15 +86,15 @@ msgstr "Explorador de Ficheiros"
 msgid "Defaults"
 msgstr "Predefinições"
 
-#: src/Sidebar.vala:29 src/Sidebar.vala:43
+#: src/Sidebar.vala:29 src/Sidebar.vala:45
 msgid "Search Apps"
 msgstr "Procurar Aplicações"
 
-#: src/Sidebar.vala:127
+#: src/Sidebar.vala:141
 msgid "System"
 msgstr "Sistema"
 
-#: src/Sidebar.vala:132
+#: src/Sidebar.vala:146
 msgid "Apps"
 msgstr "Aplicações"
 
@@ -294,6 +294,10 @@ msgstr "Cancelar"
 #: src/Startup/Widgets/AppChooser.vala:53
 msgid "Select startup app"
 msgstr "Selecionar a aplicação de arranque"
+
+#: src/Defaults/DefaultPlug.vala:59
+msgid "Maps"
+msgstr ""
 
 #~ msgid "No Flatpak apps installed"
 #~ msgstr "Nenhuma aplicação Flatpak instalada"

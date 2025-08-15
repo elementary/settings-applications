@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-19 21:04+0000\n"
+"POT-Creation-Date: 2025-08-15 01:16+0000\n"
 "PO-Revision-Date: 2025-03-01 14:57+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/settings/"
@@ -85,15 +85,15 @@ msgstr "ファイルブラウザー"
 msgid "Defaults"
 msgstr "デフォルト"
 
-#: src/Sidebar.vala:29 src/Sidebar.vala:43
+#: src/Sidebar.vala:29 src/Sidebar.vala:45
 msgid "Search Apps"
 msgstr "アプリを検索"
 
-#: src/Sidebar.vala:127
+#: src/Sidebar.vala:141
 msgid "System"
 msgstr "システム"
 
-#: src/Sidebar.vala:132
+#: src/Sidebar.vala:146
 msgid "Apps"
 msgstr "アプリ"
 
@@ -289,6 +289,10 @@ msgstr "キャンセル"
 #: src/Startup/Widgets/AppChooser.vala:53
 msgid "Select startup app"
 msgstr "自動起動するアプリを選択してください"
+
+#: src/Defaults/DefaultPlug.vala:59
+msgid "Maps"
+msgstr ""
 
 #~ msgid "No Flatpak apps installed"
 #~ msgstr "Flatpak アプリ未インストール"

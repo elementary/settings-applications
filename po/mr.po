@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-19 21:04+0000\n"
+"POT-Creation-Date: 2025-08-15 01:16+0000\n"
 "PO-Revision-Date: 2024-10-05 14:42+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -84,17 +84,17 @@ msgstr "फाइल ब्राउजर"
 msgid "Defaults"
 msgstr "डीफॉल्ट"
 
-#: src/Sidebar.vala:29 src/Sidebar.vala:43
+#: src/Sidebar.vala:29 src/Sidebar.vala:45
 #, fuzzy
 #| msgid "Search Applications"
 msgid "Search Apps"
 msgstr "अप्लिकेशन शोधा"
 
-#: src/Sidebar.vala:127
+#: src/Sidebar.vala:141
 msgid "System"
 msgstr "सिस्टिम"
 
-#: src/Sidebar.vala:132
+#: src/Sidebar.vala:146
 msgid "Apps"
 msgstr ""
 
@@ -295,6 +295,10 @@ msgstr "रद्द करा"
 #| msgid "Remove Selected Startup App"
 msgid "Select startup app"
 msgstr "निवडलेले स्टार्टअप अॅप काढा"
+
+#: src/Defaults/DefaultPlug.vala:59
+msgid "Maps"
+msgstr ""
 
 #~ msgid "No Flatpak apps installed"
 #~ msgstr "कोणतेही फ्लॅटपॅक अ‍ॅप्स स्थापित केलेले नाहीत"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-19 21:04+0000\n"
+"POT-Creation-Date: 2025-08-15 01:16+0000\n"
 "PO-Revision-Date: 2024-10-05 14:42+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/switchboard/"
@@ -86,17 +86,17 @@ msgstr "Gestore dei file"
 msgid "Defaults"
 msgstr "Predefinite"
 
-#: src/Sidebar.vala:29 src/Sidebar.vala:43
+#: src/Sidebar.vala:29 src/Sidebar.vala:45
 #, fuzzy
 #| msgid "Search Applications"
 msgid "Search Apps"
 msgstr "Cerca applicazioni"
 
-#: src/Sidebar.vala:127
+#: src/Sidebar.vala:141
 msgid "System"
 msgstr "Sistema"
 
-#: src/Sidebar.vala:132
+#: src/Sidebar.vala:146
 msgid "Apps"
 msgstr ""
 
@@ -302,6 +302,10 @@ msgstr "Annulla"
 #| msgid "Remove Selected Startup App"
 msgid "Select startup app"
 msgstr "Rimuovi l'applicazione di avvio selezionata"
+
+#: src/Defaults/DefaultPlug.vala:59
+msgid "Maps"
+msgstr ""
 
 #~ msgid "No Flatpak apps installed"
 #~ msgstr "Nessuna applicazione Flatpak installata"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-19 21:04+0000\n"
+"POT-Creation-Date: 2025-08-15 01:16+0000\n"
 "PO-Revision-Date: 2025-08-10 04:55+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -84,15 +84,15 @@ msgstr "文件浏览器"
 msgid "Defaults"
 msgstr "默认程序"
 
-#: src/Sidebar.vala:29 src/Sidebar.vala:43
+#: src/Sidebar.vala:29 src/Sidebar.vala:45
 msgid "Search Apps"
 msgstr "搜索应用程序"
 
-#: src/Sidebar.vala:127
+#: src/Sidebar.vala:141
 msgid "System"
 msgstr "系统信息"
 
-#: src/Sidebar.vala:132
+#: src/Sidebar.vala:146
 msgid "Apps"
 msgstr "应用程序"
 
@@ -140,7 +140,8 @@ msgstr "高级系统访问"
 msgid ""
 "Access to system features can be restricted to make apps more secure, but "
 "some apps may not function properly without it"
-msgstr "限制应用程序对系统功能的访问能够让应用程序更安全，但某些应用程序在不能访问系"
+msgstr ""
+"限制应用程序对系统功能的访问能够让应用程序更安全，但某些应用程序在不能访问系"
 "统功能时可能无法正常运行"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:70
@@ -275,6 +276,10 @@ msgstr "取消"
 #: src/Startup/Widgets/AppChooser.vala:53
 msgid "Select startup app"
 msgstr "选择开机启动的应用程序"
+
+#: src/Defaults/DefaultPlug.vala:59
+msgid "Maps"
+msgstr ""
 
 #~ msgid "No Flatpak apps installed"
 #~ msgstr "未安装任何 Flatpak 应用"

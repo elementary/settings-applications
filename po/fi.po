@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-19 21:04+0000\n"
+"POT-Creation-Date: 2025-08-15 01:16+0000\n"
 "PO-Revision-Date: 2024-12-02 12:16+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -86,15 +86,15 @@ msgstr "Tiedostohallinta"
 msgid "Defaults"
 msgstr "Oletukset"
 
-#: src/Sidebar.vala:29 src/Sidebar.vala:43
+#: src/Sidebar.vala:29 src/Sidebar.vala:45
 msgid "Search Apps"
 msgstr "Etsi sovelluksia"
 
-#: src/Sidebar.vala:127
+#: src/Sidebar.vala:141
 msgid "System"
 msgstr "Järjestelmä"
 
-#: src/Sidebar.vala:132
+#: src/Sidebar.vala:146
 msgid "Apps"
 msgstr "Sovellukset"
 
@@ -286,6 +286,10 @@ msgstr "Peru"
 #: src/Startup/Widgets/AppChooser.vala:53
 msgid "Select startup app"
 msgstr "Valitse automaattisesti käynnistettävä sovellus"
+
+#: src/Defaults/DefaultPlug.vala:59
+msgid "Maps"
+msgstr ""
 
 #~ msgid "No Flatpak apps installed"
 #~ msgstr "Flatpak-sovelluksia ei ole asennettu"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-applications\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-19 21:04+0000\n"
+"POT-Creation-Date: 2025-08-15 01:16+0000\n"
 "PO-Revision-Date: 2014-09-07 14:06+0000\n"
 "Last-Translator: gudeta <gudbog@gmail.com>\n"
 "Language-Team: Oromo <om@li.org>\n"
@@ -97,17 +97,17 @@ msgstr "Sakkatta'aa Faayilii"
 msgid "Defaults"
 msgstr "Durtii"
 
-#: src/Sidebar.vala:29 src/Sidebar.vala:43
+#: src/Sidebar.vala:29 src/Sidebar.vala:45
 #, fuzzy
 #| msgid "Search Applications"
 msgid "Search Apps"
 msgstr "Dhimbaaftota Barbaadi"
 
-#: src/Sidebar.vala:127
+#: src/Sidebar.vala:141
 msgid "System"
 msgstr ""
 
-#: src/Sidebar.vala:132
+#: src/Sidebar.vala:146
 msgid "Apps"
 msgstr ""
 
@@ -295,6 +295,10 @@ msgstr ""
 #| msgid "Remove Selected Startup App"
 msgid "Select startup app"
 msgstr "Dhimbaasa Ofiineegalaa Filatame Haqi"
+
+#: src/Defaults/DefaultPlug.vala:59
+msgid "Maps"
+msgstr ""
 
 #, fuzzy, c-format
 #~| msgid "Default"
