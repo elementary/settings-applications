@@ -3,23 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 01:16+0000\n"
-"PO-Revision-Date: 2024-10-05 14:42+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Swedish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-applications/sv/>\n"
+"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
+"applications/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2016-11-26 05:53+0000\n"
 
 #: src/Plug.vala:44
-#, fuzzy
-#| msgid "Manage default and startup applications"
 msgid "Manage default apps, startup apps, and app permissions"
-msgstr "Hantera standard- och uppstartsprogram"
+msgstr "Hantera standardappar, startappar och appbehörigheter"
 
 #: src/Plug.vala:45
 msgid "Applications"
@@ -35,15 +33,15 @@ msgstr "Standardprogram"
 
 #: src/Plug.vala:106
 msgid "Permissions"
-msgstr ""
+msgstr "Behörigheter"
 
 #: src/Plug.vala:107
 msgid "Sandboxing"
-msgstr ""
+msgstr "Sandlåda"
 
 #: src/Plug.vala:108
 msgid "Confinement"
-msgstr ""
+msgstr "Inneslutning"
 
 #: src/Plug.vala:109 src/Plug.vala:110 src/Plug.vala:111 src/Plug.vala:112
 #: src/Plug.vala:113 src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116
@@ -83,16 +81,12 @@ msgid "File Browser"
 msgstr "Filhanterare"
 
 #: src/Sidebar.vala:21 src/Defaults/DefaultPlug.vala:12
-#, fuzzy
-#| msgid "Default"
 msgid "Defaults"
 msgstr "Standard"
 
 #: src/Sidebar.vala:29 src/Sidebar.vala:45
-#, fuzzy
-#| msgid "Search Applications"
 msgid "Search Apps"
-msgstr "Sök efter program"
+msgstr "Sök efter appar"
 
 #: src/Sidebar.vala:141
 msgid "System"
@@ -100,17 +94,15 @@ msgstr "System"
 
 #: src/Sidebar.vala:146
 msgid "Apps"
-msgstr ""
+msgstr "Appar"
 
 #: src/Permissions/Backend/App.vala:42
 msgid "Home Folder"
 msgstr "Hemmapp"
 
 #: src/Permissions/Backend/App.vala:43
-#, fuzzy
-#| msgid "Home Folder"
 msgid "System Folders"
-msgstr "Hemmapp"
+msgstr "Systemmappar"
 
 #: src/Permissions/Backend/App.vala:44
 msgid "Devices"
@@ -126,78 +118,84 @@ msgstr "Bluetooth"
 
 #: src/Permissions/Backend/App.vala:47
 msgid "Printing"
-msgstr ""
+msgstr "Skriver ut"
 
 #: src/Permissions/Backend/App.vala:48
 msgid "Secure Shell Agent"
-msgstr ""
+msgstr "Agent för Secure Shell"
 
 #: src/Permissions/Backend/App.vala:49
 msgid "GPU Acceleration"
-msgstr ""
+msgstr "GPU-acceleration"
 
 #: src/Permissions/Backend/PermissionStore.vala:66
 msgid "Couldn't set permission"
-msgstr ""
+msgstr "Kunde inte ange behörighet"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:64
 msgid "Advanced System Access"
-msgstr ""
+msgstr "Avancerad systemåtkomst"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:67
 msgid ""
 "Access to system features can be restricted to make apps more secure, but "
 "some apps may not function properly without it"
 msgstr ""
+"Åtkomst till systemfunktioner kan begränsas för att göra appar säkrare, men "
+"vissa appar kanske inte fungerar korrekt utan detta"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:70
-#, fuzzy
-#| msgid "Default"
 msgid "Reset to Defaults"
-msgstr "Standard"
+msgstr "Återställ till standard"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:121
 msgid ""
 "Including all documents, downloads, music, pictures, videos, and any hidden "
 "folders."
 msgstr ""
+"Inklusive alla dokument, nedladdningar, musik, bilder, videor och alla dolda "
+"mappar."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:125
 msgid "Including everyone's Home folders, but not including system internals."
-msgstr ""
+msgstr "Inklusive allas hemmappar, men inte systemets interndelar."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:129
 msgid ""
 "Manage all connected devices, such as webcams, microphones, and USB devices."
 msgstr ""
+"Hantera alla anslutna enheter, t.ex. webbkameror, mikrofoner och USB-enheter."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:133
 msgid "Connect to the Internet and local networks."
-msgstr ""
+msgstr "Anslut till Internet och lokala nätverk."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:137
 msgid "Manage Bluetooth devices including pairing, unpairing, and discovery."
 msgstr ""
+"Hantera Bluetooth-enheter, inklusive parkoppling, upplösning av parkoppling "
+"och upptäckt."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:141
 msgid "Manage printers and see the print queue."
-msgstr ""
+msgstr "Hantera skrivare och se utskriftskön."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:145
 msgid "Connect to other devices on the network via SSH."
-msgstr ""
+msgstr "Anslut till andra enheter i nätverket via SSH."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:149
 msgid "Accelerate graphical output."
-msgstr ""
+msgstr "Snabbare grafisk utmatning."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:175
 msgid "Background Activity"
-msgstr ""
+msgstr "Bakgrundsaktivitet"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:176
 msgid "Perform tasks and use system resources while its window is closed."
 msgstr ""
+"Utföra uppgifter och använda systemresurser medan dess fönster är stängt."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:186
 msgid "Location Services"
@@ -205,7 +203,7 @@ msgstr "Platstjänster"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:187
 msgid "Determine the location of this device."
-msgstr ""
+msgstr "Bestäm platsen för denna enhet."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:200
 msgid "Notifications"
@@ -216,14 +214,16 @@ msgid ""
 "Send notification bubbles that may play sound and appear in Notification "
 "Center."
 msgstr ""
+"Skicka aviseringsbubblor som kan spela upp ljud och visas i Notification "
+"Center."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:211
 msgid "Screenshot"
-msgstr ""
+msgstr "Skärmdump"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:212
 msgid "Take pictures of the display without asking first."
-msgstr ""
+msgstr "Ta bilder av skärmen utan att fråga först."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:222
 msgid "Wallpaper"
@@ -231,17 +231,17 @@ msgstr "Bakgrundsbild"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:223
 msgid "Set the wallpaper on the desktop and lock screen."
-msgstr ""
+msgstr "Ställ in bakgrundsbilden på skrivbordet och låsskärmen."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:239
 #, c-format
 msgid "%s permissions"
-msgstr ""
+msgstr "%s behörigheter"
 
 #. / Translators: This is a delimiter that separates types of permissions in the sidebar description
 #: src/Permissions/Widgets/SidebarRow.vala:84
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: src/Startup/Startup.vala:24
 msgid "Launch Apps on Startup"
@@ -263,7 +263,7 @@ msgstr "Anpassat kommando"
 
 #: src/Startup/Widgets/AppRow.vala:46
 msgid "Remove this app from startup"
-msgstr ""
+msgstr "Ta bort den här appen från start"
 
 #: src/Startup/Widgets/AppRow.vala:51
 #, c-format
@@ -284,14 +284,12 @@ msgstr "Avbryt"
 
 #. TRANSLATORS: This string is used by screen reader
 #: src/Startup/Widgets/AppChooser.vala:53
-#, fuzzy
-#| msgid "Remove Selected Startup App"
 msgid "Select startup app"
-msgstr "Ta bort valt uppstartsprogram"
+msgstr "Välj startapplikation"
 
 #: src/Defaults/DefaultPlug.vala:59
 msgid "Maps"
-msgstr ""
+msgstr "Kartor"
 
 #~ msgid "Try changing search terms."
 #~ msgstr "Försök med att ändra söktermer."
