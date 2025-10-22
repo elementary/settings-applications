@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 01:16+0000\n"
-"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"PO-Revision-Date: 2025-10-23 12:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "applications/sv/>\n"
@@ -207,7 +207,7 @@ msgstr "Bestäm platsen för denna enhet."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:200
 msgid "Notifications"
-msgstr "Notifikationer"
+msgstr "Aviseringar"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:201
 msgid ""
@@ -285,7 +285,7 @@ msgstr "Avbryt"
 #. TRANSLATORS: This string is used by screen reader
 #: src/Startup/Widgets/AppChooser.vala:53
 msgid "Select startup app"
-msgstr "Välj startapplikation"
+msgstr "Välj uppstartsprogram"
 
 #: src/Defaults/DefaultPlug.vala:59
 msgid "Maps"
