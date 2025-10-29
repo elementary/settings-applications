@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 01:16+0000\n"
-"PO-Revision-Date: 2025-10-23 12:55+0000\n"
+"PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "applications/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: src/Plug.vala:44
 msgid "Manage default apps, startup apps, and app permissions"
-msgstr "Hantera standardappar, startappar och appbehörigheter"
+msgstr "Hantera standardappar, uppstartsappar och appbehörigheter"
 
 #: src/Plug.vala:45
 msgid "Applications"
@@ -118,7 +118,7 @@ msgstr "Bluetooth"
 
 #: src/Permissions/Backend/App.vala:47
 msgid "Printing"
-msgstr "Skriver ut"
+msgstr "Utskrifter"
 
 #: src/Permissions/Backend/App.vala:48
 msgid "Secure Shell Agent"
@@ -130,7 +130,7 @@ msgstr "GPU-acceleration"
 
 #: src/Permissions/Backend/PermissionStore.vala:66
 msgid "Couldn't set permission"
-msgstr "Kunde inte ange behörighet"
+msgstr "Kunde inte ställa in behörighet"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:64
 msgid "Advanced System Access"
@@ -153,7 +153,7 @@ msgid ""
 "Including all documents, downloads, music, pictures, videos, and any hidden "
 "folders."
 msgstr ""
-"Inklusive alla dokument, nedladdningar, musik, bilder, videor och alla dolda "
+"Inklusive alla dokument, hämtningar, musik, bilder, videor och alla dolda "
 "mappar."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:125
@@ -173,8 +173,8 @@ msgstr "Anslut till Internet och lokala nätverk."
 #: src/Permissions/Widgets/AppSettingsView.vala:137
 msgid "Manage Bluetooth devices including pairing, unpairing, and discovery."
 msgstr ""
-"Hantera Bluetooth-enheter, inklusive parkoppling, upplösning av parkoppling "
-"och upptäckt."
+"Hantera Bluetooth-enheter, inklusive parkoppling, ta bort parkoppling och "
+"upptäckt."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:141
 msgid "Manage printers and see the print queue."
@@ -195,7 +195,7 @@ msgstr "Bakgrundsaktivitet"
 #: src/Permissions/Widgets/AppSettingsView.vala:176
 msgid "Perform tasks and use system resources while its window is closed."
 msgstr ""
-"Utföra uppgifter och använda systemresurser medan dess fönster är stängt."
+"Genomför uppgifter och använd systemresurser medan dess fönster är stängt."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:186
 msgid "Location Services"
@@ -203,7 +203,7 @@ msgstr "Platstjänster"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:187
 msgid "Determine the location of this device."
-msgstr "Bestäm platsen för denna enhet."
+msgstr "Fastställ platsen för denna enhet."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:200
 msgid "Notifications"
@@ -214,8 +214,7 @@ msgid ""
 "Send notification bubbles that may play sound and appear in Notification "
 "Center."
 msgstr ""
-"Skicka aviseringsbubblor som kan spela upp ljud och visas i Notification "
-"Center."
+"Skicka aviseringsbubblor som kan spela upp ljud och visas i Aviseringscenter."
 
 #: src/Permissions/Widgets/AppSettingsView.vala:211
 msgid "Screenshot"
@@ -245,7 +244,7 @@ msgstr ", "
 
 #: src/Startup/Startup.vala:24
 msgid "Launch Apps on Startup"
-msgstr "Kör program vid uppstart"
+msgstr "Starta program vid uppstart"
 
 #: src/Startup/Startup.vala:25
 msgid "Add apps to the Startup list by clicking the icon in the toolbar below."
@@ -263,12 +262,12 @@ msgstr "Anpassat kommando"
 
 #: src/Startup/Widgets/AppRow.vala:46
 msgid "Remove this app from startup"
-msgstr "Ta bort den här appen från start"
+msgstr "Ta bort den här appen från uppstart"
 
 #: src/Startup/Widgets/AppRow.vala:51
 #, c-format
 msgid "Launch %s on startup"
-msgstr "Kör %s vid uppstart"
+msgstr "Starta %s vid uppstart"
 
 #: src/Startup/Widgets/AppChooser.vala:17
 msgid "Search Applications"
