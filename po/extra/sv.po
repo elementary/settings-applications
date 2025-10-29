@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 01:16+0000\n"
-"PO-Revision-Date: 2025-10-22 09:59+0000\n"
+"PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "applications-plug-extra/sv/>\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: data/applications.metainfo.xml.in:10
 msgid "Applications Settings"
-msgstr "Inställningar för program"
+msgstr "Programinställningar"
 
 #: data/applications.metainfo.xml.in:11
 msgid "Manage default and startup applications"
-msgstr "Hantera standard- och startprogram"
+msgstr "Hantera standard- och uppstartsprogram"
 
 #: data/applications.metainfo.xml.in:34
 msgid "elementary, Inc."
@@ -58,7 +58,8 @@ msgstr "Omdesignad layout som gör det snabbare att komma till appbehörigheter"
 #: data/applications.metainfo.xml.in:58
 msgid ""
 "Portal permissions like Backgrounding, Location, Screenshots, and Wallpapers"
-msgstr "Portalbehörigheter som bakgrund, plats, skärmdumpar och bakgrundsbilder"
+msgstr ""
+"Portalbehörigheter som bakgrunder, plats, skärmdumpar och bakgrundsbilder"
 
 #: data/applications.metainfo.xml.in:84 data/applications.metainfo.xml.in:114
 msgid "New features:"
@@ -70,7 +71,7 @@ msgstr "Korrekt hantering av autostartfiler som skapats av bakgrundsportalen"
 
 #: data/applications.metainfo.xml.in:90
 msgid "App chooser in Startup is a dialog instead of a popover"
-msgstr "App-valet i Startup är en dialogruta istället för en popover"
+msgstr "Appväljare i Uppstart är en dialogruta istället för en popover"
 
 #: data/applications.metainfo.xml.in:91
 msgid "Improve screen reader descriptions"
@@ -82,7 +83,7 @@ msgstr "Åtgärdat ett problem med att ställa in fel app för vissa filtyper"
 
 #: data/applications.metainfo.xml.in:106
 msgid "Don't overwrite custom overrides when unnecessary"
-msgstr "Skriv inte över anpassade overrides när det inte är nödvändigt"
+msgstr "Skriv inte över anpassade åsidosättningar när det inte är nödvändigt"
 
 #: data/applications.metainfo.xml.in:116
 msgid "Manage permissions for Flatpak apps"
