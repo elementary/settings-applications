@@ -21,10 +21,10 @@ public class Defaults.AppChooserButton : Granite.Bin {
         factory.setup.connect (factory_setup);
         factory.bind.connect (factory_bind);
 
-        var app_info_expr = new Gtk.ObjectExpression (apps_store);
+        var app_expr = new Gtk.ObjectExpression (apps_store);
 
         var app_name_expr = new Gtk.CClosureExpression (
-            typeof (string), null, { app_info_expr },
+            typeof (string), null, { app_expr },
             (Callback) get_app_name,
             null, null
         );
@@ -36,8 +36,8 @@ public class Defaults.AppChooserButton : Granite.Bin {
         dropdown.selected = find_default_app_pos (apps_store, content_type);
 
         dropdown.notify["selected-item"].connect (() => run_in_thread (() => {
-            var app_info = (AppInfo) dropdown.selected_item;
-            change_default (app_info, content_type);
+            var app = (AppInfo) dropdown.selected_item;
+            change_default (app, content_type);
             return null;
         }));
 
@@ -104,8 +104,8 @@ public class Defaults.AppChooserButton : Granite.Bin {
         row.app_name = model.get_name ();
     }
 
-    private string get_app_name (AppInfo app_info) {
-        return app_info.get_name ();
+    private string get_app_name (AppInfo app) {
+        return app.get_name ();
     }
 
     private void run_in_thread (owned ThreadFunc<void*> func) {
