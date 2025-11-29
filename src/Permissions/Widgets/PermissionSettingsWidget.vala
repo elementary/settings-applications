@@ -48,7 +48,7 @@ public class Permissions.Widgets.PermissionSettingsWidget : Gtk.ListBoxRow {
             wrap = true,
             xalign = 0
         };
-        description_label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+        description_label.add_css_class (Granite.CssClass.DIM);
         description_label.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
 
         var allow_switch = new Gtk.Switch () {
