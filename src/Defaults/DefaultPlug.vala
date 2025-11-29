@@ -158,8 +158,11 @@ public class Defaults.Plug : Switchboard.SettingsPage {
 
         private string[] get_types_for_app (string app) {
             switch (app) {
+                case "x-scheme-handler/mailto":
+                case "text/calendar":
                 case "x-scheme-handler/geo":
-                    return { "x-scheme-handler/geo" };
+                case "application/pdf":
+                    return { app };
 
                 case "x-scheme-handler/https":
                     return {
@@ -168,12 +171,6 @@ public class Defaults.Plug : Switchboard.SettingsPage {
                         "text/html",
                         "application/xhtml+xml",
                     };
-
-                case "x-scheme-handler/mailto":
-                    return { "x-scheme-handler/mailto" };
-
-                case "text/calendar":
-                    return { "text/calendar" };
 
                 case "video/x-ogm+ogg":
                     return {
