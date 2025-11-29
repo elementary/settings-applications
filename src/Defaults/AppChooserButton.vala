@@ -54,7 +54,7 @@ public class Defaults.AppChooserButton : Granite.Bin {
     private void load_apps (ListStore store, string content_type) {
         store.remove_all ();
 
-        var apps = AppInfo.get_all_for_type (content_type);
+        var apps = AppInfo.get_recommended_for_type (content_type);
         if (apps == null) {
             warning ("AppInfo.get_all_for_type() error. content_type=%s", content_type);
             return;
