@@ -60,8 +60,8 @@ public class Defaults.Plug : Switchboard.SettingsPage {
             "x-scheme-handler/geo"
         );
 
-        var pdf_setting = new SettingsChild (
-            _("PDF Viewer"),
+        var document_setting = new SettingsChild (
+            _("Document Viewer"),
             "application/pdf"
         );
 
@@ -82,7 +82,7 @@ public class Defaults.Plug : Switchboard.SettingsPage {
         flowbox.append (videos_setting);
         flowbox.append (files_setting);
         flowbox.append (maps_setting);
-        flowbox.append (pdf_setting);
+        flowbox.append (document_setting);
 
         child = flowbox;
         show_end_title_buttons = true;
@@ -161,7 +161,6 @@ public class Defaults.Plug : Switchboard.SettingsPage {
                 case "x-scheme-handler/mailto":
                 case "text/calendar":
                 case "x-scheme-handler/geo":
-                case "application/pdf":
                     return { app };
 
                 case "x-scheme-handler/https":
@@ -356,6 +355,32 @@ public class Defaults.Plug : Switchboard.SettingsPage {
                         "inode/directory",
                         "x-directory/normal",
                         "x-directory/gnome-default-handler"
+                    };
+
+                case "application/pdf":
+                    // From https://gitlab.gnome.org/GNOME/papers/-/blob/6300c55f2ef01192abc88724a38bb6ef38ab2628/meson.build#L220-252
+                    return {
+                        "application/vnd.comicbook-rar",
+                        "application/vnd.comicbook+zip",
+                        "application/x-cb7",
+                        "application/x-cbr",
+                        "application/x-cbt",
+                        "application/x-cbz",
+                        "application/x-ext-cb7",
+                        "application/x-ext-cbr",
+                        "application/x-ext-cbt",
+                        "application/x-ext-cbz",
+                        "application/x-ext-djv",
+                        "application/x-ext-djvu",
+                        "image/vnd.djvu",
+                        "image/vnd.djvu+multipage",
+                        "application/illustrator",
+                        "application/pdf",
+                        "application/x-bzpdf",
+                        "application/x-ext-pdf",
+                        "application/x-gzpdf",
+                        "application/x-xzpdf",
+                        "image/tiff"
                     };
 
                 default:
