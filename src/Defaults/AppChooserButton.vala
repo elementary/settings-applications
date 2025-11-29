@@ -13,13 +13,14 @@ public class Defaults.AppChooserButton : Granite.Bin {
     }
 
     construct {
-        var apps_store = new ListStore (typeof (AppInfo));
-
-        load_apps (apps_store, content_type);
-
         var factory = new Gtk.SignalListItemFactory ();
         factory.setup.connect (factory_setup);
         factory.bind.connect (factory_bind);
+
+        var apps_store = new ListStore (typeof (AppInfo));
+
+        // Ignore result of load so that we always continue to setup the UI widgets
+        load_apps (apps_store, content_type);
 
         var app_expr = new Gtk.ObjectExpression (apps_store);
 
