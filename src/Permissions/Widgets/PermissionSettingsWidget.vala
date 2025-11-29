@@ -49,7 +49,7 @@ public class Permissions.Widgets.PermissionSettingsWidget : Gtk.ListBoxRow {
             xalign = 0
         };
         description_label.add_css_class (Granite.CssClass.DIM);
-        description_label.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
+        description_label.add_css_class (Granite.CssClass.SMALL);
 
         var allow_switch = new Gtk.Switch () {
             focusable = false,

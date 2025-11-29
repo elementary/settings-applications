@@ -45,7 +45,7 @@ public class Permissions.SidebarRow : Gtk.ListBoxRow {
             valign = Gtk.Align.START,
             xalign = 0
         };
-        description_label.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
+        description_label.add_css_class (Granite.CssClass.SMALL);
 
         description_revealer = new Gtk.Revealer () {
             child = description_label

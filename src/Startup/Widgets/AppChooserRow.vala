@@ -26,7 +26,7 @@ public class Startup.Widgets.AppChooserRow : Gtk.Grid {
             xalign = 0,
             ellipsize = Pango.EllipsizeMode.END
         };
-        app_comment.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
+        app_comment.add_css_class (Granite.CssClass.SMALL);
 
         column_spacing = 6;
         attach (image, 0, 0, 1, 2);
