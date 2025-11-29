@@ -98,11 +98,11 @@ public class Defaults.AppChooserButton : Granite.Bin {
 
     private void factory_bind (Object object) {
         var item = object as Gtk.ListItem;
-        var model = item.item as AppInfo;
+        var app = item.item as AppInfo;
         var row = item.child as AppChooserButtonRow;
 
-        row.app_icon = model.get_icon ();
-        row.app_name = model.get_name ();
+        row.app_icon = app.get_icon ();
+        row.app_name = app.get_name ();
     }
 
     private string get_app_name (AppInfo app) {
