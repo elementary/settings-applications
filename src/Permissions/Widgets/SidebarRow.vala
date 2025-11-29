@@ -21,8 +21,7 @@
 
 public class Permissions.SidebarRow : Gtk.ListBoxRow {
     public Permissions.Backend.App app { get; construct; }
-    private Gtk.Label description_label;
-    private Gtk.Revealer description_revealer;
+    private Granite.HeaderLabel title_label;
 
     public SidebarRow (Permissions.Backend.App app) {
         Object (app: app);
@@ -33,20 +32,9 @@ public class Permissions.SidebarRow : Gtk.ListBoxRow {
             pixel_size = 32
         };
 
-        var title_label = new Granite.HeaderLabel (app.name) {
+        title_label = new Granite.HeaderLabel (app.name) {
             size = H3,
-            valign = Gtk.Align.END
-        };
-
-        description_label = new Gtk.Label ("") {
-            ellipsize = Pango.EllipsizeMode.END,
-            valign = Gtk.Align.START,
-            xalign = 0
-        };
-        description_label.add_css_class (Granite.CssClass.SMALL);
-
-        description_revealer = new Gtk.Revealer () {
-            child = description_label
+            valign = START
         };
 
         var grid = new Gtk.Grid () {
@@ -54,7 +42,6 @@ public class Permissions.SidebarRow : Gtk.ListBoxRow {
         };
         grid.attach (image, 0, 0, 1, 2);
         grid.attach (title_label, 1, 0);
-        grid.attach (description_revealer, 1, 1);
 
         accessible_role = TAB;
         child = grid;
@@ -80,14 +67,14 @@ public class Permissions.SidebarRow : Gtk.ListBoxRow {
         if (current_permissions.length > 0) {
             /// Translators: This is a delimiter that separates types of permissions in the sidebar description
             var description = string.joinv (_(", "), current_permissions.data);
-            description_label.label = description;
-            description_revealer.reveal_child = true;
+            title_label.secondary_text = description;
             tooltip_text = description;
 
             update_property (Gtk.AccessibleProperty.DESCRIPTION, description, -1);
         } else {
-            description_revealer.reveal_child = false;
+            title_label.secondary_text = "";
             tooltip_text = null;
+
             update_property (Gtk.AccessibleProperty.DESCRIPTION, null, -1);
         }
     }
