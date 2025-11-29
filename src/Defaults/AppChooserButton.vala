@@ -33,6 +33,8 @@ public class Defaults.AppChooserButton : Granite.Bin {
             factory = factory
         };
 
+        dropdown.selected = find_default_app_pos (apps_store, content_type);
+
         dropdown.notify["selected-item"].connect (() => run_in_thread (() => {
             var app_info = (AppInfo) dropdown.selected_item;
             change_default (app_info, content_type);
@@ -61,6 +63,29 @@ public class Defaults.AppChooserButton : Granite.Bin {
         apps.foreach ((item) => {
             store.append (item);
         });
+    }
+
+    private uint find_default_app_pos (ListStore store, string content_type) {
+        var default_app = AppInfo.get_default_for_type (content_type, false);
+        if (default_app == null) {
+            warning ("AppInfo.get_default_for_type() error. content_type=%s", content_type);
+            return Gtk.INVALID_LIST_POSITION;
+        }
+
+        uint pos;
+        bool found = store.find_with_equal_func (default_app,
+            ((a, b) => {
+                return ((AppInfo) a).get_id () == ((AppInfo) b).get_id ();
+            }),
+            out pos
+        );
+        if (!found) {
+            // Wouldn't happen, probably all apps store is not initialized
+            warning ("BUG: default app not found in all apps store! default_app=%s", default_app.get_id ());
+            return Gtk.INVALID_LIST_POSITION;
+        }
+
+        return pos;
     }
 
     private void factory_setup (Object object) {
