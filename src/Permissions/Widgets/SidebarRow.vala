@@ -33,12 +33,10 @@ public class Permissions.SidebarRow : Gtk.ListBoxRow {
             pixel_size = 32
         };
 
-        var title_label = new Gtk.Label (app.name) {
-            ellipsize = Pango.EllipsizeMode.END,
-            valign = Gtk.Align.END,
-            xalign = 0
+        var title_label = new Granite.HeaderLabel (app.name) {
+            size = H3,
+            valign = Gtk.Align.END
         };
-        title_label.add_css_class (Granite.STYLE_CLASS_H3_LABEL);
 
         description_label = new Gtk.Label ("") {
             ellipsize = Pango.EllipsizeMode.END,
