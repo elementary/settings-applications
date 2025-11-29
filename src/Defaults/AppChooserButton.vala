@@ -33,8 +33,9 @@ public class Defaults.AppChooserButton : Granite.Bin {
             factory = factory
         };
 
-        dropdown.notify["selected-item"].connect ((obj, pspec) => run_in_thread (() => {
-            change_default ((AppInfo) obj, content_type);
+        dropdown.notify["selected-item"].connect (() => run_in_thread (() => {
+            var app_info = (AppInfo) dropdown.selected_item;
+            change_default (app_info, content_type);
             return null;
         }));
 
