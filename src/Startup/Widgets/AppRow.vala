@@ -40,7 +40,7 @@ public class Startup.Widgets.AppRow : Gtk.ListBoxRow {
             hexpand = true,
             xalign = 0
         };
-        app_comment.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
+        app_comment.add_css_class (Granite.CssClass.SMALL);
 
         var remove_button = new Gtk.Button.from_icon_name ("edit-delete-symbolic") {
             tooltip_text = _("Remove this app from startup")
