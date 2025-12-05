@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-15 01:16+0000\n"
+"POT-Creation-Date: 2025-12-05 18:04+0000\n"
 "PO-Revision-Date: 2025-10-06 12:55+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementaryos.org/projects/settings/"
@@ -281,6 +281,12 @@ msgstr "בחירת יישום הפעלה"
 #: src/Defaults/DefaultPlug.vala:59
 msgid "Maps"
 msgstr "מפות"
+
+#: src/Defaults/DefaultPlug.vala:64
+#, fuzzy
+#| msgid "Image Viewer"
+msgid "PDF Viewer"
+msgstr "מציג תמונות"
 
 #~ msgid "No Flatpak apps installed"
 #~ msgstr "לא מותקנים יישומים עם Flatpak"

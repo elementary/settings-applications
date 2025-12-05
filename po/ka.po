@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-15 01:16+0000\n"
+"POT-Creation-Date: 2025-12-05 18:04+0000\n"
 "PO-Revision-Date: 2024-04-20 18:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/switchboard/"
@@ -288,6 +288,12 @@ msgstr "აირჩიეთ ავტომატურად გასაშ�
 #: src/Defaults/DefaultPlug.vala:59
 msgid "Maps"
 msgstr ""
+
+#: src/Defaults/DefaultPlug.vala:64
+#, fuzzy
+#| msgid "Image Viewer"
+msgid "PDF Viewer"
+msgstr "სურათების გამხსნელი"
 
 #~ msgid "No Flatpak apps installed"
 #~ msgstr "Flatpak-ის აპები დაყენებული არაა"
