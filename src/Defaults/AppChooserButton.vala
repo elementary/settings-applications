@@ -19,11 +19,14 @@ public class Defaults.AppChooserButton : Granite.Bin {
 
         var apps_store = new ListStore (typeof (AppInfo));
 
-        // Ignore result of load so that we always continue to setup the UI widgets
+        // Ignore result of load so that we always continue to setup UI
+        // with blank app_store
         load_apps (apps_store, content_type);
 
-        var app_expr = new Gtk.ObjectExpression (apps_store);
+        // Expression to retrieve a reference of app_store
+        var app_expr = new Gtk.ConstantExpression (typeof (ListStore), apps_store);
 
+        // Expression to retrieve a name of each AppInfo element in app_store
         var app_name_expr = new Gtk.CClosureExpression (
             typeof (string), null, { app_expr },
             (Callback) get_app_name,
@@ -81,7 +84,7 @@ public class Defaults.AppChooserButton : Granite.Bin {
             out pos
         );
         if (!found) {
-            // Wouldn't happen, probably all apps store is not initialized
+            // Wouldn't happen, probably store is not initialized
             warning ("BUG: default app not found in all apps store! default_app=%s", default_app.get_id ());
             return Gtk.INVALID_LIST_POSITION;
         }
