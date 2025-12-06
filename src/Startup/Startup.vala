@@ -143,20 +143,6 @@ public class Startup.Plug : Switchboard.SettingsPage {
         add_app (key_file);
     }
 
-    private string? get_path_from_uri (string uri) {
-        if (uri.has_prefix ("#") || uri.strip () == "")
-            return null;
-
-        try {
-            return GLib.Filename.from_uri (uri);
-        } catch (Error e) {
-            warning ("Could not convert URI of dropped item to filename");
-            warning (e.message);
-        }
-
-        return null;
-    }
-
     private int sort_function (Gtk.ListBoxRow row1, Gtk.ListBoxRow row2) {
         var name_1 = ((Widgets.AppRow) row1).app_info.name;
         var name_2 = ((Widgets.AppRow) row2).app_info.name;

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-15 01:16+0000\n"
+"POT-Creation-Date: 2025-12-05 18:04+0000\n"
 "PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
@@ -289,6 +289,12 @@ msgstr "Välj uppstartsprogram"
 #: src/Defaults/DefaultPlug.vala:59
 msgid "Maps"
 msgstr "Kartor"
+
+#: src/Defaults/DefaultPlug.vala:64
+#, fuzzy
+#| msgid "Image Viewer"
+msgid "PDF Viewer"
+msgstr "Bildvisare"
 
 #~ msgid "Try changing search terms."
 #~ msgstr "Försök med att ändra söktermer."

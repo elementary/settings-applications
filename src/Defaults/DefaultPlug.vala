@@ -60,6 +60,11 @@ public class Defaults.Plug : Switchboard.SettingsPage {
             "x-scheme-handler/geo"
         );
 
+        var pdf_setting = new SettingsChild (
+            _("PDF Viewer"),
+            "application/pdf"
+        );
+
         var flowbox = new Gtk.FlowBox () {
             column_spacing = 24,
             row_spacing = 12,
@@ -77,6 +82,7 @@ public class Defaults.Plug : Switchboard.SettingsPage {
         flowbox.append (videos_setting);
         flowbox.append (files_setting);
         flowbox.append (maps_setting);
+        flowbox.append (pdf_setting);
 
         child = flowbox;
         show_end_title_buttons = true;

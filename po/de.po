@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-15 01:16+0000\n"
+"POT-Creation-Date: 2025-12-05 18:04+0000\n"
 "PO-Revision-Date: 2024-10-08 20:16+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
@@ -292,6 +292,12 @@ msgstr "Automatisch gestartete Anwendung wählen"
 #: src/Defaults/DefaultPlug.vala:59
 msgid "Maps"
 msgstr ""
+
+#: src/Defaults/DefaultPlug.vala:64
+#, fuzzy
+#| msgid "Image Viewer"
+msgid "PDF Viewer"
+msgstr "Bildbetrachter"
 
 #~ msgid "No Flatpak apps installed"
 #~ msgstr "Keine Flatpak-Anwendungen installiert"
