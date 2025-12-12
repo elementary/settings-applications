@@ -36,7 +36,8 @@ shared_module(
         dependency('glib-2.0', version: '>=2.34'),
         dependency('gio-2.0'),
         dependency('gobject-2.0'),
-        dependency('granite-7', version: '>=7.4.0'),
+        # TODO Require >= 7.8.0 when released
+        dependency('granite-7', version: '>=7.7.0'),
         dependency('gtk4'),
         dependency('libadwaita-1', version: '>=1.4'),
         switchboard_dep
