@@ -34,7 +34,8 @@ public class Permissions.SidebarRow : Gtk.ListBoxRow {
 
         title_label = new Granite.HeaderLabel (app.name) {
             size = H3,
-            valign = START
+            valign = START,
+            ellipsize = END
         };
 
         var grid = new Gtk.Grid () {
