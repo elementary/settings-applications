@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-05 18:04+0000\n"
-"PO-Revision-Date: 2025-08-16 22:55+0000\n"
+"PO-Revision-Date: 2025-12-08 08:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/settings/"
 "applications/ja/>\n"
@@ -295,10 +295,8 @@ msgid "Maps"
 msgstr "マップ"
 
 #: src/Defaults/DefaultPlug.vala:64
-#, fuzzy
-#| msgid "Image Viewer"
 msgid "PDF Viewer"
-msgstr "画像ビューアー"
+msgstr "PDF ビューアー"
 
 #~ msgid "No Flatpak apps installed"
 #~ msgstr "Flatpak アプリ未インストール"

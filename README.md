@@ -12,7 +12,7 @@ You'll need the following dependencies:
 * libflatpak-dev
 * libgranite-7-dev >= 7.6.0
 * libgtk-4-dev
-* meson
+* meson >= 0.58.0
 * valac
 
 Run `meson` to configure the build environment and then `ninja` to build
