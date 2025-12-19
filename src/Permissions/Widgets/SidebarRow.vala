@@ -41,7 +41,7 @@ public class Permissions.SidebarRow : Gtk.ListBoxRow {
         var grid = new Gtk.Grid () {
             column_spacing = 6
         };
-        grid.attach (image, 0, 0, 1, 2);
+        grid.attach (image, 0, 0);
         grid.attach (title_label, 1, 0);
 
         accessible_role = TAB;
