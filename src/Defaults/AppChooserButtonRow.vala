@@ -9,6 +9,7 @@ public class AppChooserButtonRow : Gtk.Box {
 
     construct {
         orientation = HORIZONTAL;
+        spacing = 6;
 
         var icon = new Gtk.Image () {
             halign = START
