@@ -2,18 +2,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-15 01:16+0000\n"
-"PO-Revision-Date: 2024-10-05 14:42+0000\n"
+"POT-Creation-Date: 2025-12-05 18:04+0000\n"
+"PO-Revision-Date: 2026-01-23 04:55+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Slovenian <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-applications/sl/>\n"
+"Language-Team: Slovenian <https://l10n.elementaryos.org/projects/settings/"
+"applications/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2016-12-11 05:23+0000\n"
 
 #: src/Plug.vala:44
@@ -90,10 +90,8 @@ msgid "Defaults"
 msgstr "Privzeto"
 
 #: src/Sidebar.vala:29 src/Sidebar.vala:45
-#, fuzzy
-#| msgid "Search Applications"
 msgid "Search Apps"
-msgstr "Išči med programi"
+msgstr "Išči aplikacije"
 
 #: src/Sidebar.vala:141
 msgid "System"
@@ -291,6 +289,12 @@ msgstr "Odstrani izbrano aplikacijo"
 #: src/Defaults/DefaultPlug.vala:59
 msgid "Maps"
 msgstr ""
+
+#: src/Defaults/DefaultPlug.vala:64
+#, fuzzy
+#| msgid "Image Viewer"
+msgid "PDF Viewer"
+msgstr "Pregledovalnik slik"
 
 #~ msgid "Try changing search terms."
 #~ msgstr "Poskusite spremeniti iskalni niz."

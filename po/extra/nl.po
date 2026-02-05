@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-15 01:16+0000\n"
-"PO-Revision-Date: 2024-12-20 08:28+0000\n"
-"Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
+"POT-Creation-Date: 2025-12-05 18:04+0000\n"
+"PO-Revision-Date: 2025-12-27 18:55+0000\n"
+"Last-Translator: Bas Ernst <50556177+ErnstBas@users.noreply.github.com>\n"
+"Language-Team: Dutch <https://l10n.elementaryos.org/projects/settings/"
 "applications-plug-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/applications.metainfo.xml.in:10
 msgid "Applications Settings"
@@ -31,69 +31,73 @@ msgstr "Beheer standaardapplicaties en applicaties die automatisch opstarten"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/applications.metainfo.xml.in:42 data/applications.metainfo.xml.in:71
-#: data/applications.metainfo.xml.in:88 data/applications.metainfo.xml.in:103
-#: data/applications.metainfo.xml.in:118
+#: data/applications.metainfo.xml.in:42 data/applications.metainfo.xml.in:54
+#: data/applications.metainfo.xml.in:83 data/applications.metainfo.xml.in:100
+#: data/applications.metainfo.xml.in:115 data/applications.metainfo.xml.in:130
 msgid "Minor updates:"
 msgstr "Kleine updates:"
 
-#: data/applications.metainfo.xml.in:44 data/applications.metainfo.xml.in:59
-#: data/applications.metainfo.xml.in:73 data/applications.metainfo.xml.in:92
-#: data/applications.metainfo.xml.in:107 data/applications.metainfo.xml.in:121
+#: data/applications.metainfo.xml.in:44 data/applications.metainfo.xml.in:56
+#: data/applications.metainfo.xml.in:71 data/applications.metainfo.xml.in:85
+#: data/applications.metainfo.xml.in:104 data/applications.metainfo.xml.in:119
+#: data/applications.metainfo.xml.in:133
 msgid "Updated translations"
 msgstr "Bijgewerkte vertalingen"
 
-#: data/applications.metainfo.xml.in:54
+#: data/applications.metainfo.xml.in:66
 msgid "A Big Redesign!"
 msgstr "Een groots nieuw ontwerp!"
 
-#: data/applications.metainfo.xml.in:56
+#: data/applications.metainfo.xml.in:68
 msgid "A new icon"
 msgstr "Een nieuw icoon"
 
-#: data/applications.metainfo.xml.in:57
+#: data/applications.metainfo.xml.in:69
 msgid "Redesigned layout that makes it faster to get to app permissions"
 msgstr ""
 "Een nieuwe indeling ontworpen om snel naar de app-toestemmingen te gaan"
 
-#: data/applications.metainfo.xml.in:58
+#: data/applications.metainfo.xml.in:70
 msgid ""
 "Portal permissions like Backgrounding, Location, Screenshots, and Wallpapers"
 msgstr ""
 "Portaaltoestemmingen zoals achtergrond-taken, locatie, schermafdrukken en "
 "achtergronden"
 
-#: data/applications.metainfo.xml.in:84 data/applications.metainfo.xml.in:114
+#: data/applications.metainfo.xml.in:96 data/applications.metainfo.xml.in:126
 msgid "New features:"
 msgstr "Nieuwe functies:"
 
-#: data/applications.metainfo.xml.in:86
+#: data/applications.metainfo.xml.in:98
 msgid "Properly handle autostart files created by the Background Portal"
 msgstr ""
+"Verwerk op de juiste manier automatische opstartbestanden die door de "
+"Achtergrondportaal zijn aangemaakt"
 
-#: data/applications.metainfo.xml.in:90
+#: data/applications.metainfo.xml.in:102
 msgid "App chooser in Startup is a dialog instead of a popover"
 msgstr ""
+"De app-kiezer in Opstarten is een dialoogvenster in plaats van een pop-over"
 
-#: data/applications.metainfo.xml.in:91
+#: data/applications.metainfo.xml.in:103
 msgid "Improve screen reader descriptions"
-msgstr ""
+msgstr "Verbeter de schermlezerbeschrijvingen"
 
-#: data/applications.metainfo.xml.in:105
+#: data/applications.metainfo.xml.in:117
 msgid "Fix an issue with setting the incorrect app for certain files types"
 msgstr ""
 "Een probleem is opgelost waarbij de verkeerde app werd ingesteld voor "
 "sommige bestandstypes"
 
-#: data/applications.metainfo.xml.in:106
+#: data/applications.metainfo.xml.in:118
 msgid "Don't overwrite custom overrides when unnecessary"
 msgstr "Overschrijf eigen overrides niet wanneer onnodig"
 
-#: data/applications.metainfo.xml.in:116
+#: data/applications.metainfo.xml.in:128
 msgid "Manage permissions for Flatpak apps"
 msgstr "Beheer toegankelijkheden voor Flatpak apps"
 
-#: data/applications.metainfo.xml.in:120
+#: data/applications.metainfo.xml.in:132
 msgid "Show custom launcher files"
 msgstr "Toon eigen launcher bestanden"
 

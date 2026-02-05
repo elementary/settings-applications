@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-15 01:16+0000\n"
+"POT-Creation-Date: 2025-12-05 18:04+0000\n"
 "PO-Revision-Date: 2024-10-05 14:42+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Estonian <https://l10n.elementary.io/projects/switchboard/"
@@ -298,6 +298,11 @@ msgstr "Eemalda valitud rakenduse automaatkäivitus"
 #: src/Defaults/DefaultPlug.vala:59
 msgid "Maps"
 msgstr ""
+
+#: src/Defaults/DefaultPlug.vala:64
+#, fuzzy
+msgid "PDF Viewer"
+msgstr "Pildivaatur:"
 
 #~ msgid "Try changing search terms."
 #~ msgstr "Proovi otsingut muuta."

@@ -12,6 +12,8 @@ plug_files = files(
     'Startup/Widgets/AppRow.vala',
     'Startup/Widgets/AppChooserRow.vala',
     'Startup/Widgets/AppChooser.vala',
+    'Defaults/AppChooserButton.vala',
+    'Defaults/AppChooserButtonRow.vala',
     'Defaults/DefaultPlug.vala',
     'Permissions/Backend/App.vala',
     'Permissions/Backend/AppManager.vala',
@@ -24,7 +26,7 @@ plug_files = files(
 )
 
 switchboard_dep = dependency('switchboard-3')
-switchboard_plugsdir = switchboard_dep.get_pkgconfig_variable('plugsdir', define_variable: ['libdir', libdir])
+switchboard_plugsdir = switchboard_dep.get_variable('plugsdir', pkgconfig_define: ['libdir', libdir])
 
 shared_module(
     meson.project_name(),
@@ -36,7 +38,7 @@ shared_module(
         dependency('glib-2.0', version: '>=2.34'),
         dependency('gio-2.0'),
         dependency('gobject-2.0'),
-        dependency('granite-7', version: '>=7.4.0'),
+        dependency('granite-7', version: '>=7.6.0'),
         dependency('gtk4'),
         dependency('libadwaita-1', version: '>=1.4'),
         switchboard_dep

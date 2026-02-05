@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-applications\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-15 01:16+0000\n"
+"POT-Creation-Date: 2025-12-05 18:04+0000\n"
 "PO-Revision-Date: 2014-09-07 14:06+0000\n"
 "Last-Translator: gudeta <gudbog@gmail.com>\n"
 "Language-Team: Oromo <om@li.org>\n"
@@ -299,6 +299,11 @@ msgstr "Dhimbaasa Ofiineegalaa Filatame Haqi"
 #: src/Defaults/DefaultPlug.vala:59
 msgid "Maps"
 msgstr ""
+
+#: src/Defaults/DefaultPlug.vala:64
+#, fuzzy
+msgid "PDF Viewer"
+msgstr "Mul'isaa Suuraa"
 
 #, fuzzy, c-format
 #~| msgid "Default"
