@@ -1,7 +1,7 @@
 project(
     'applications',
     'vala', 'c',
-    version: '8.2.0',
+    version: '8.3.0',
     meson_version: '>= 0.58.0'
 )
 
