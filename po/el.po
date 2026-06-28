@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-05 18:04+0000\n"
-"PO-Revision-Date: 2024-10-05 14:42+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Greek <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-applications/el/>\n"
+"PO-Revision-Date: 2026-06-29 01:00+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
+"applications/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 2026.5\n"
 "X-Launchpad-Export-Date: 2017-02-10 05:58+0000\n"
 
 #: src/Plug.vala:44
@@ -53,44 +53,36 @@ msgid "Default"
 msgstr "Προεπιλογή"
 
 #: src/Plug.vala:109 src/Defaults/DefaultPlug.vala:19
-#, fuzzy
 msgid "Web Browser"
-msgstr "Περιηγητής ιστού:"
+msgstr "Πρόγραμμα περιήγησης ιστού"
 
 #: src/Plug.vala:110 src/Defaults/DefaultPlug.vala:24
-#, fuzzy
 msgid "Email Client"
-msgstr "Πελάτης email:"
+msgstr "Πρόγραμμα ηλεκτρονικής αλληλογραφίας"
 
 #: src/Plug.vala:111 src/Defaults/DefaultPlug.vala:29
-#, fuzzy
 msgid "Calendar"
-msgstr "Ημερολόγιο:"
+msgstr "Ημερολόγιο"
 
 #: src/Plug.vala:112 src/Defaults/DefaultPlug.vala:34
-#, fuzzy
 msgid "Video Player"
-msgstr "Αναπαραγωγέας βίντεο:"
+msgstr "Πρόγραμμα αναπαραγωγής βίντεο"
 
 #: src/Plug.vala:113 src/Defaults/DefaultPlug.vala:39
-#, fuzzy
 msgid "Music Player"
-msgstr "Αναπαραγωγέας μουσικής:"
+msgstr "Πρόγραμμα αναπαραγωγής μουσικής"
 
 #: src/Plug.vala:114 src/Defaults/DefaultPlug.vala:49
-#, fuzzy
 msgid "Text Editor"
-msgstr "Επεξεργαστής κειμένου:"
+msgstr "Πρόγραμμα επεξεργασίας κειμένου"
 
 #: src/Plug.vala:115 src/Defaults/DefaultPlug.vala:44
-#, fuzzy
 msgid "Image Viewer"
-msgstr "Προβολέας εικόνων:"
+msgstr "Πρόγραμμα προβολής εικόνων"
 
 #: src/Plug.vala:116 src/Defaults/DefaultPlug.vala:54
-#, fuzzy
 msgid "File Browser"
-msgstr "Περιηγητής αρχείων:"
+msgstr "Πρόγραμμα περιήγησης αρχείων"
 
 #: src/Sidebar.vala:21 src/Defaults/DefaultPlug.vala:12
 #, fuzzy
@@ -106,11 +98,11 @@ msgstr "Αναζήτηση εφαρμογών"
 
 #: src/Sidebar.vala:141
 msgid "System"
-msgstr ""
+msgstr "Σύστημα"
 
 #: src/Sidebar.vala:146
 msgid "Apps"
-msgstr ""
+msgstr "Εφαρμογές"
 
 #: src/Permissions/Backend/App.vala:42
 msgid "Home Folder"
@@ -136,7 +128,7 @@ msgstr "Bluetooth"
 
 #: src/Permissions/Backend/App.vala:47
 msgid "Printing"
-msgstr ""
+msgstr "Εκτύπωση"
 
 #: src/Permissions/Backend/App.vala:48
 msgid "Secure Shell Agent"
@@ -229,7 +221,7 @@ msgstr ""
 
 #: src/Permissions/Widgets/AppSettingsView.vala:211
 msgid "Screenshot"
-msgstr ""
+msgstr "Στιγμιότυπο οθόνης"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:212
 msgid "Take pictures of the display without asking first."
@@ -251,7 +243,7 @@ msgstr ""
 #. / Translators: This is a delimiter that separates types of permissions in the sidebar description
 #: src/Permissions/Widgets/SidebarRow.vala:84
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: src/Startup/Startup.vala:24
 msgid "Launch Apps on Startup"
@@ -265,7 +257,7 @@ msgstr ""
 
 #: src/Startup/Startup.vala:45
 msgid "Add Startup App…"
-msgstr "Προσθήκη εφαρμογής στην εκκίνηση..."
+msgstr "Προσθήκη εφαρμογής αυτόματης εκκίνησης…"
 
 #: src/Startup/Backend/KeyFile.vala:99
 msgid "Custom Command"
@@ -294,19 +286,16 @@ msgstr "Ακύρωση"
 
 #. TRANSLATORS: This string is used by screen reader
 #: src/Startup/Widgets/AppChooser.vala:53
-#, fuzzy
-#| msgid "Remove Selected Startup App"
 msgid "Select startup app"
-msgstr "Αφαίρεση εφαρμογής από την εκκίνηση..."
+msgstr "Επιλογή εφαρμογής αυτόματης εκκίνησης"
 
 #: src/Defaults/DefaultPlug.vala:59
 msgid "Maps"
-msgstr ""
+msgstr "Χάρτες"
 
 #: src/Defaults/DefaultPlug.vala:64
-#, fuzzy
 msgid "PDF Viewer"
-msgstr "Προβολέας εικόνων:"
+msgstr "Πρόγραμμα προβολής PDF"
 
 #~ msgid "Try changing search terms."
 #~ msgstr "Δοκιμάστε να αλλάξετε τους όρους αναζήτησης"
