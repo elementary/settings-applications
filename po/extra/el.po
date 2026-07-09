@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-05 18:04+0000\n"
-"PO-Revision-Date: 2026-06-29 01:00+0000\n"
+"PO-Revision-Date: 2026-07-10 11:00+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
 "applications-plug-extra/el/>\n"
@@ -46,7 +46,7 @@ msgstr "Ενημερωμένες μεταφράσεις"
 
 #: data/applications.metainfo.xml.in:66
 msgid "A Big Redesign!"
-msgstr ""
+msgstr "Μεγάλος ανασχεδιασμός!"
 
 #: data/applications.metainfo.xml.in:68
 msgid "A new icon"
