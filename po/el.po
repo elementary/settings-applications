@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-05 18:04+0000\n"
-"PO-Revision-Date: 2026-06-29 01:00+0000\n"
+"PO-Revision-Date: 2026-07-10 11:00+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
 "applications/el/>\n"
@@ -37,15 +37,15 @@ msgstr "Προεπιλεγμένες εφαρμογές"
 
 #: src/Plug.vala:106
 msgid "Permissions"
-msgstr ""
+msgstr "Δικαιώματα"
 
 #: src/Plug.vala:107
 msgid "Sandboxing"
-msgstr ""
+msgstr "Απομόνωση εφαρμογών"
 
 #: src/Plug.vala:108
 msgid "Confinement"
-msgstr ""
+msgstr "Περιορισμός"
 
 #: src/Plug.vala:109 src/Plug.vala:110 src/Plug.vala:111 src/Plug.vala:112
 #: src/Plug.vala:113 src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116
@@ -136,7 +136,7 @@ msgstr ""
 
 #: src/Permissions/Backend/App.vala:49
 msgid "GPU Acceleration"
-msgstr ""
+msgstr "Επιτάχυνση GPU"
 
 #: src/Permissions/Backend/PermissionStore.vala:66
 msgid "Couldn't set permission"
@@ -195,7 +195,7 @@ msgstr ""
 
 #: src/Permissions/Widgets/AppSettingsView.vala:175
 msgid "Background Activity"
-msgstr ""
+msgstr "Δραστηριότητα παρασκηνίου"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:176
 msgid "Perform tasks and use system resources while its window is closed."
@@ -203,7 +203,7 @@ msgstr ""
 
 #: src/Permissions/Widgets/AppSettingsView.vala:186
 msgid "Location Services"
-msgstr ""
+msgstr "Υπηρεσίες τοποθεσίας"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:187
 msgid "Determine the location of this device."
@@ -238,7 +238,7 @@ msgstr ""
 #: src/Permissions/Widgets/AppSettingsView.vala:239
 #, c-format
 msgid "%s permissions"
-msgstr ""
+msgstr "%s δικαιώματα"
 
 #. / Translators: This is a delimiter that separates types of permissions in the sidebar description
 #: src/Permissions/Widgets/SidebarRow.vala:84
