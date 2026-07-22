@@ -3,8 +3,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-05 18:04+0000\n"
-"PO-Revision-Date: 2026-07-10 11:00+0000\n"
-"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"PO-Revision-Date: 2026-07-23 05:01+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
 "applications/el/>\n"
 "Language: el\n"
@@ -91,8 +92,6 @@ msgid "Defaults"
 msgstr "Προεπιλογή"
 
 #: src/Sidebar.vala:29 src/Sidebar.vala:45
-#, fuzzy
-#| msgid "Search Applications"
 msgid "Search Apps"
 msgstr "Αναζήτηση εφαρμογών"
 
