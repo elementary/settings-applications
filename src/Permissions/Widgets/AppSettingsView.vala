@@ -185,7 +185,7 @@ public class Permissions.Widgets.AppSettingsView : Switchboard.SettingsPage {
         location_row = new PermissionSettingsWidget (
             _("Location Services"),
             _("Determine the location of this device."),
-            "preferences-system-privacy-location"
+            "find-location"
         );
 
         location_row.notify["active"].connect (() => {
@@ -199,7 +199,7 @@ public class Permissions.Widgets.AppSettingsView : Switchboard.SettingsPage {
         notifications_row = new PermissionSettingsWidget (
             _("Notifications"),
             _("Send notification bubbles that may play sound and appear in Notification Center."),
-            "preferences-system-notifications"
+            "permissions-notifications"
         );
 
         notifications_row.notify["active"].connect (() => {
