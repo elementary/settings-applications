@@ -174,11 +174,9 @@ public class Applications.Sidebar : Gtk.Box {
                 icon_size = LARGE
             };
 
-            var title_label = new Gtk.Label (label) {
-                ellipsize = END,
-                xalign = 0
+            var title_label = new Granite.HeaderLabel (label) {
+                size = H3
             };
-            title_label.add_css_class (Granite.STYLE_CLASS_H3_LABEL);
 
             var box = new Gtk.Box (HORIZONTAL, 6);
             box.append (image);
