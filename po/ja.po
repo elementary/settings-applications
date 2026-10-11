@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-05 18:04+0000\n"
-"PO-Revision-Date: 2026-09-19 16:02+0000\n"
+"PO-Revision-Date: 2026-10-11 07:35+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/settings/"
 "applications/ja/>\n"
@@ -51,7 +51,7 @@ msgstr "デフォルト"
 
 #: src/Plug.vala:109 src/Defaults/DefaultPlug.vala:19
 msgid "Web Browser"
-msgstr "Web ブラウザー"
+msgstr "ウェブブラウザー"
 
 #: src/Plug.vala:110 src/Defaults/DefaultPlug.vala:24
 msgid "Email Client"
@@ -167,7 +167,7 @@ msgstr ""
 msgid ""
 "Manage all connected devices, such as webcams, microphones, and USB devices."
 msgstr ""
-"Web カメラ、マイク、USB デバイスなどの、すべての接続済みデバイスを管理しま"
+"ウェブカメラ、マイク、USB デバイスなどの、すべての接続済みデバイスを管理しま"
 "す。"
 
 #: src/Permissions/Widgets/AppSettingsView.vala:133
