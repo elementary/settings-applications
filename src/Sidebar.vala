@@ -158,7 +158,7 @@ public class Applications.Sidebar : Gtk.Box {
         return 0;
     }
 
-    private class SimpleSidebarRow : Gtk.ListBoxRow {
+    private class SimpleSidebarRow : Granite.ListItem {
         public string label { get; construct; }
         public string icon_name { get; construct; }
 
@@ -174,19 +174,20 @@ public class Applications.Sidebar : Gtk.Box {
                 icon_size = LARGE
             };
 
-            var title_label = new Gtk.Label (label) {
+            var header_label = new Granite.HeaderLabel (label) {
                 ellipsize = END,
-                xalign = 0
+                mnemonic_widget = this,
+                size = H3,
+                valign = CENTER,
+                vexpand = true
             };
-            title_label.add_css_class (Granite.STYLE_CLASS_H3_LABEL);
 
-            var box = new Gtk.Box (HORIZONTAL, 6);
+            var box = new Granite.Box (HORIZONTAL, HALF);
             box.append (image);
-            box.append (title_label);
+            box.append (header_label);
 
             accessible_role = TAB;
             child = box;
-            update_property (Gtk.AccessibleProperty.LABEL, label, -1);
         }
     }
 }
