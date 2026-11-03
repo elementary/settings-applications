@@ -51,15 +51,13 @@ public class Permissions.Widgets.AppSettingsView : Switchboard.SettingsPage {
             hexpand = true,
             selection_mode = NONE
         };
-        permission_box.add_css_class ("boxed-list");
-        permission_box.add_css_class (Granite.STYLE_CLASS_RICH_LIST);
+        permission_box.add_css_class (Granite.CssClass.CARD);
 
         sandbox_box = new Gtk.ListBox () {
             hexpand = true,
             selection_mode = NONE
         };
-        sandbox_box.add_css_class ("boxed-list");
-        sandbox_box.add_css_class (Granite.STYLE_CLASS_RICH_LIST);
+        sandbox_box.add_css_class (Granite.CssClass.CARD);
 
         var sandbox_header = new Granite.HeaderLabel (_("Advanced System Access")) {
             halign = FILL,

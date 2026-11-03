@@ -21,7 +21,6 @@ public class Startup.Widgets.AppChooser : Granite.Dialog {
             hexpand = true,
             vexpand = true
         };
-        list.add_css_class (Granite.STYLE_CLASS_RICH_LIST);
         list.set_sort_func (sort_function);
         list.set_filter_func (filter_function);
 

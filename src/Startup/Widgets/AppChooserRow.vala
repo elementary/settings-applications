@@ -4,8 +4,7 @@
  * Authored by: Julien Spautz <spautz.julien@gmail.com>
  */
 
-public class Startup.Widgets.AppChooserRow : Gtk.Grid {
-
+public class Startup.Widgets.AppChooserRow : Granite.ListItem {
     public Entity.AppInfo app_info { get; construct; }
 
     public signal void deleted ();
@@ -26,11 +25,15 @@ public class Startup.Widgets.AppChooserRow : Gtk.Grid {
             xalign = 0,
             ellipsize = Pango.EllipsizeMode.END
         };
-        app_comment.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
+        app_comment.add_css_class (Granite.CssClass.SMALL);
 
-        column_spacing = 6;
-        attach (image, 0, 0, 1, 2);
-        attach (app_name, 1, 0);
-        attach (app_comment, 1, 1);
+        var grid = new Gtk.Grid () {
+            column_spacing = 6
+        };
+        grid.attach (image, 0, 0, 1, 2);
+        grid.attach (app_name, 1, 0);
+        grid.attach (app_comment, 1, 1);
+
+        child = grid;
     }
 }

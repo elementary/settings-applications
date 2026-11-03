@@ -19,8 +19,7 @@
 * Authored by: Marius Meisenzahl <mariusmeisenzahl@gmail.com>
 */
 
-public class Permissions.Widgets.PermissionSettingsWidget : Gtk.ListBoxRow {
-    public string description { get; construct; }
+public class Permissions.Widgets.PermissionSettingsWidget : Granite.ListItem {
     public string icon_name { get; construct; }
     public string primary_text { get; construct; }
 
@@ -48,8 +47,8 @@ public class Permissions.Widgets.PermissionSettingsWidget : Gtk.ListBoxRow {
             wrap = true,
             xalign = 0
         };
-        description_label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
-        description_label.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
+        description_label.add_css_class (Granite.CssClass.DIM);
+        description_label.add_css_class (Granite.CssClass.SMALL);
 
         var allow_switch = new Gtk.Switch () {
             focusable = false,

@@ -29,7 +29,6 @@ public class Startup.Plug : Switchboard.SettingsPage {
             hexpand = true,
             vexpand = true
         };
-        list.add_css_class (Granite.STYLE_CLASS_RICH_LIST);
         list.set_placeholder (empty_alert);
         list.set_sort_func (sort_function);
 
@@ -144,8 +143,8 @@ public class Startup.Plug : Switchboard.SettingsPage {
     }
 
     private int sort_function (Gtk.ListBoxRow row1, Gtk.ListBoxRow row2) {
-        var name_1 = ((Widgets.AppRow) row1).app_info.name;
-        var name_2 = ((Widgets.AppRow) row2).app_info.name;
+        var name_1 = ((Widgets.AppRow) row1.child).app_info.name;
+        var name_2 = ((Widgets.AppRow) row2.child).app_info.name;
 
         return name_1.collate (name_2);
     }
