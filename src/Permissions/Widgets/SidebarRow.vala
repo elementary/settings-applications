@@ -1,28 +1,13 @@
 /*
-* Copyright 2020 elementary, Inc. (https://elementary.io)
-*
-* This program is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public
-* License as published by the Free Software Foundation; either
-* version 3 of the License, or (at your option) any later version.
-*
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-* General Public License for more details.
-*
-* You should have received a copy of the GNU General Public
-* License along with this program; if not, write to the
-* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
-* Boston, MA 02110-1301 USA
-*
-* Authored by: Marius Meisenzahl <mariusmeisenzahl@gmail.com>
-*/
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ * SPDX-FileCopyrightText: 2020-2026 elementary, Inc. (https://elementary.io)
+ *
+ * Authored by: Marius Meisenzahl <mariusmeisenzahl@gmail.com>
+ */
 
 public class Permissions.SidebarRow : Gtk.ListBoxRow {
     public Permissions.Backend.App app { get; construct; }
-    private Gtk.Label description_label;
-    private Gtk.Revealer description_revealer;
+    private Granite.HeaderLabel header_label;
 
     public SidebarRow (Permissions.Backend.App app) {
         Object (app: app);
@@ -33,35 +18,21 @@ public class Permissions.SidebarRow : Gtk.ListBoxRow {
             pixel_size = 32
         };
 
-        var title_label = new Gtk.Label (app.name) {
-            ellipsize = Pango.EllipsizeMode.END,
-            valign = Gtk.Align.END,
-            xalign = 0
-        };
-        title_label.add_css_class (Granite.STYLE_CLASS_H3_LABEL);
-
-        description_label = new Gtk.Label ("") {
-            ellipsize = Pango.EllipsizeMode.END,
-            valign = Gtk.Align.START,
-            xalign = 0
-        };
-        description_label.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
-
-        description_revealer = new Gtk.Revealer () {
-            child = description_label
+        header_label = new Granite.HeaderLabel (app.name) {
+            ellipsize = END,
+            mnemonic_widget = this,
+            size = H3,
+            valign = CENTER,
+            vexpand = true
         };
 
-        var grid = new Gtk.Grid () {
-            column_spacing = 6
-        };
-        grid.attach (image, 0, 0, 1, 2);
-        grid.attach (title_label, 1, 0);
-        grid.attach (description_revealer, 1, 1);
+        var box = new Granite.Box (HORIZONTAL, HALF);
+        box.append (image);
+        box.append (header_label);
 
         accessible_role = TAB;
-        child = grid;
+        child = box;
         hexpand = true;
-        update_property (Gtk.AccessibleProperty.LABEL, app.name, -1);
 
         for (var i = 0; i < app.settings.length; i++) {
             app.settings.get (i).notify.connect (update_description);
@@ -82,15 +53,11 @@ public class Permissions.SidebarRow : Gtk.ListBoxRow {
         if (current_permissions.length > 0) {
             /// Translators: This is a delimiter that separates types of permissions in the sidebar description
             var description = string.joinv (_(", "), current_permissions.data);
-            description_label.label = description;
-            description_revealer.reveal_child = true;
+            header_label.secondary_text = description;
             tooltip_text = description;
-
-            update_property (Gtk.AccessibleProperty.DESCRIPTION, description, -1);
         } else {
-            description_revealer.reveal_child = false;
+            header_label.secondary_text = null;
             tooltip_text = null;
-            update_property (Gtk.AccessibleProperty.DESCRIPTION, null, -1);
         }
     }
 }
