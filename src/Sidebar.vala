@@ -174,13 +174,17 @@ public class Applications.Sidebar : Gtk.Box {
                 icon_size = LARGE
             };
 
-            var title_label = new Granite.HeaderLabel (label) {
-                size = H3
+            var header_label = new Granite.HeaderLabel (label) {
+                ellipsize = END,
+                mnemonic_widget = this,
+                size = H3,
+                valign = CENTER,
+                vexpand = true
             };
 
-            var box = new Gtk.Box (HORIZONTAL, 6);
+            var box = new Granite.Box (HORIZONTAL, HALF);
             box.append (image);
-            box.append (title_label);
+            box.append (header_label);
 
             accessible_role = TAB;
             child = box;
