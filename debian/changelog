@@ -1,3 +1,9 @@
+io.elementary.settings.applications (8.3.0) noble; urgency=medium
+
+  * Release 8.3.0 (#276)
+
+ -- elementary, Inc. <builds@elementary.io>  Thu, 05 Feb 2026 20:15:50 +0000
+
 io.elementary.settings.applications (8.2.0) noble; urgency=medium
 
   * Release 8.2.0 (#258)
